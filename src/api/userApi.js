@@ -8,7 +8,7 @@ export function getUsers() {
 }
 
 export function deleteUser(id) {
-  return deleteUser(`users/${id}`);
+  return del(`users/${id}`);
 }
 
 function get(url) {
